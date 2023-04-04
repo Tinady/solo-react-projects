@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+ @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@300;400;700&display=swap');
+
+.navbar{
+    display: flex;
+    padding: 2px 5px ;
+    box-shadow: 2px 2px rgba(14, 11, 11, 0.2);
+    align-items: center;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+   
+
+}
+.logo-container{
+    margin-right:auto;
+    padding: 0;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-buttons{
+    display: flex;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 0px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo-text{
+
+    color: #32de84;
+    font-family: Cedarville Cursive;
+    margin: 0;
+    font-weight: 700;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+    margin: 0px 20px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #32de84;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+     font-size: 19px;
+     box-shadow: 3px 3px #4efaa1;
+
+
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.hamburger-menu {
+    width: 20px;
+    height:20px;
+    padding: 0;
+    margin: 0;
 }
