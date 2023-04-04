@@ -9,7 +9,7 @@ export default  function Navbar()
    <div className="navbar">
         <div className="logo-container" >
             <img className="logo" src={logo}/>
-            <p className="logo-text">Botanic Garden</p>
+            <p className="logo-text">Botanic garden</p>
         </div>
         
         <div className="navbar-buttons">
