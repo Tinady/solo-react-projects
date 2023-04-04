@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../imgs/background1.jpg"
+import background from "../imgs/background1.avif"
 
 export default function Quote()
 {
