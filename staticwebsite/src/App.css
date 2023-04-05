@@ -81,7 +81,7 @@
 
 .quote-img{
     width: 100%;
-   max-height: 600px;
+   max-height: 580px;
    
     position: relative;
 }
@@ -102,7 +102,7 @@
     font-weight: 1000;
     font-size: 35px;
     opacity: 1;
-    color:rgb(158, 250, 97);
+    color:rgb(176, 236, 136);
     padding-left: 10px;
     mix-blend-mode:color-dodge;
     letter-spacing: 1px ;
