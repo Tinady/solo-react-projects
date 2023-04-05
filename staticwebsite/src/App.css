@@ -74,32 +74,64 @@
     margin-top: 4px;
     display: flex;
     flex: wrap;
-    border-radius: 3px;
+    border-style:solid;
+    border-radius: 10px;
+
 }
 
 .quote-img{
     width: 100%;
-    height: 400px;
+   max-height: 600px;
+   
     position: relative;
 }
 
 .garden-quote{
     position: absolute;
-    margin: 50px 75px;
-    max-width: 400px;
-    height:200px;
+    margin: 75px 100px;
+    max-width: 700px;
+    height:320px;
     border-style: none;
     border-radius: 25px;
+    
     background-color: rgba(39, 181, 224, 0.3);;
    
 }
 
 .quote-text{
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 35px;
     opacity: 1;
-    color:rgb(229, 244, 229);
+    color:rgb(158, 250, 97);
     padding-left: 10px;
+    mix-blend-mode:color-dodge;
+    letter-spacing: 1px ;
+     line-height: 50px;
+    align-self: center;
+
     
 
+}
+
+.subscribe-btn{
+   margin: 20px 250px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #32de84;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+     font-size: 19px;
+     box-shadow: 3px 3px #38ad71;
+   
+     transition: color, box-shadow 0.8s ;
+
+}
+
+
+
+.subscribe-btn:hover{
+    color: #ffffff;
+   
+    box-shadow: 3px 3px #34f893;
 }
