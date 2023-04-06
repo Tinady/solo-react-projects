@@ -94,7 +94,7 @@
     border-style: none;
     border-radius: 25px;
     
-    background-color: rgba(39, 181, 224, 0.3);;
+    background-color: rgba(116, 250, 154, 0.3);;
    
 }
 
@@ -102,14 +102,12 @@
     font-weight: 1000;
     font-size: 35px;
     opacity: 1;
-    color:rgb(176, 236, 136);
+    color:rgb(104, 141, 80);
     padding-left: 10px;
     mix-blend-mode:color-dodge;
     letter-spacing: 1px ;
      line-height: 50px;
     align-self: center;
-
-    
 
 }
 
@@ -117,7 +115,7 @@
    margin: 20px 250px;
     border-style: none;
     border-radius: 2px;
-    background-color: #32de84;
+    background-color:#0BDA51;
     width: 200px;
     height: 50px;
     border-radius: 10px;
