@@ -30,7 +30,7 @@
 
 .logo-text{
 
-    color: #32de84;
+    color: #0d4c2b;
     font-family: Cedarville Cursive;
     margin: 0;
     font-weight: 700;
@@ -97,7 +97,7 @@
     margin: 5px;
     width: 750px;
     letter-spacing: 1px ;
-    color: white;
+    color:#ffffff;
     line-height: 80px;
   
    
@@ -108,13 +108,13 @@
    margin: 20px 250px;
     border-style: none;
     border-radius: 2px;
-    background-color:#0BDA51;
+    background-color:#32de84;
     width: 200px;
     height: 80px;
     border-radius: 10px;
      font-size: 19px;
-     box-shadow: 3px 3px #1a3829;
-   
+     box-shadow: 3px 3px #3f9c6e;
+     color: #010916;
      transition: color, box-shadow 0.9s ;
 
 }
@@ -124,5 +124,5 @@
 .subscribe-btn:hover{
     color: #ffffff;
    
-    box-shadow: 3px 3px #34f893;
+    box-shadow: 3px 3px #136038;
 }
