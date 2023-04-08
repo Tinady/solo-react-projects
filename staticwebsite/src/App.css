@@ -42,7 +42,7 @@
     margin: 0px 20px;
     border-style: none;
     border-radius: 2px;
-    background-color: #32de84;
+    background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(19, 85, 38, 0.46) 92% );
     width: 80px;
     height: 50px;
     border-radius: 10px;
@@ -108,7 +108,7 @@
    margin: 20px 250px;
     border-style: none;
     border-radius: 2px;
-    background-color:#32de84;
+    background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(10, 76, 35, 0.46) 92% );
     width: 200px;
     height: 80px;
     border-radius: 10px;
