@@ -6,7 +6,7 @@
     box-shadow: 2px 2px rgba(14, 11, 11, 0.2);
     align-items: center;
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-   
+    margin-bottom:0;
 
 }
 .logo-container{
@@ -71,43 +71,36 @@
 }
 
 .quote-container{
-    margin-top: 4px;
-    display: flex;
-    flex: wrap;
-    border-style:solid;
-    border-radius: 10px;
+  background-image: url(./imgs/background1.avif);
+  background-size: cover;
+  padding:80px 150px;
+   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+
+
 
 }
 
-.quote-img{
-    width: 100%;
-   max-height: 580px;
-   
-    position: relative;
-}
 
-.garden-quote{
-    position: absolute;
-    margin: 75px 100px;
-    max-width: 700px;
-    height:320px;
-    border-style: none;
-    border-radius: 25px;
-    
-    background-color: rgba(116, 250, 154, 0.3);;
-   
-}
+
+
 
 .quote-text{
-    font-weight: 1000;
-    font-size: 35px;
-    opacity: 1;
-    color:rgb(104, 141, 80);
-    padding-left: 10px;
-    mix-blend-mode:color-dodge;
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 5px;
+    width: 750px;
     letter-spacing: 1px ;
-     line-height: 50px;
-    align-self: center;
+    color: white;
+    line-height: 80px;
+  
+   
 
 }
 
@@ -117,12 +110,12 @@
     border-radius: 2px;
     background-color:#0BDA51;
     width: 200px;
-    height: 50px;
+    height: 80px;
     border-radius: 10px;
      font-size: 19px;
-     box-shadow: 3px 3px #38ad71;
+     box-shadow: 3px 3px #1a3829;
    
-     transition: color, box-shadow 0.8s ;
+     transition: color, box-shadow 0.9s ;
 
 }
 
