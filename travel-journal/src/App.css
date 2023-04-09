@@ -1,20 +1,29 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@300;400;700&display=swap');
+
+
 *{
   box-sizing: border-box;
 }
 
 .header{
-   max-width:50px;
-   margin: 0;
+   max-height:100px;
+   margin: 0px;
    padding:0;
+   box-shadow: 2px 2px rgba(0,0, 0, 0.5);
+  
 }
+
 
 .header p{
-  margin: 0;
+  margin: 0 10px;
   padding:0;
-}
+  font-family: Cedarville Cursive;
+  color: rgb(237, 89, 89);
+   font-weight: bolder;}
 
 .header img{
-  max-width:50px;
-  margin: 0;
+  max-height:50px;
+  margin: 0 10px;
   padding:0;
 }
