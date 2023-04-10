@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
        <Header/>
-       <div className='cards-container'>
+       <div className='cards'>
         {cards}
        </div>
     </div>
