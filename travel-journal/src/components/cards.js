@@ -8,15 +8,18 @@ export default function cards(props)
             <div className="img-container"> 
             <img src={props.data.image}/>
             </div>
+            <div className="info">
             <div className="information-container">
               <img src={icon}/>
               <p>{props.data.country}</p>
-              <a href="google.com">View on google Maps</a>
+              <a href="googlemap.com">View on google Maps</a>
             </div>
-             <h1>{props.data.location}</h1>
-             <p>{props.data.date}</p>
-             <p>{props.data.description}</p>
 
+
+             <h1 className="location-container">{props.data.location}</h1>
+             <p className="date-container">{props.data.date}</p>
+             <p className="description-container">{props.data.description}</p>
+             </div>
         </div>
     )
 }
