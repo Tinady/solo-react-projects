@@ -12,7 +12,7 @@ export default function cards(props)
             <div className="information-container">
               <img src={icon}/>
               <p>{props.data.country}</p>
-              <a href="googlemap.com">View on google Maps</a>
+              <a href="https://goo.gl/maps/DMbytTjDtZBV4V996">View on google Maps</a>
             </div>
 
 
