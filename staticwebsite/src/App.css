@@ -73,7 +73,7 @@
 .quote-container{
   background-image: url(./imgs/background1.avif);
   background-size: cover;
-  padding:80px 150px;
+  padding: 40px 150px ;
    display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,12 +94,13 @@
 
 .quote-text{
     font-weight: bolder;
-    font-size: 38px;
-    margin: 5px;
+    font-size: 30px;
+    margin:50px 5px;
     padding-left: 50px;
-    width: 750px;
+     max-width: 650px;
+     height: 200px;
      color:#ffffff;
-    line-height: 60px;
+    line-height: 42px;
   
   
    
@@ -107,7 +108,7 @@
 }
 
 .subscribe-btn{
-   margin: 20px 250px;
+   margin: 15px 250px ;
     border-style: none;
     border-radius: 2px;
     background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(6, 52, 23, 0.46) 92% );
