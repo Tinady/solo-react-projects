@@ -76,10 +76,10 @@
   padding:80px 150px;
    display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 300px;
+ 
   
   
 
@@ -96,9 +96,11 @@
     font-weight: bolder;
     font-size: 38px;
     margin: 5px;
+    padding-left: 50px;
     width: 750px;
      color:#ffffff;
     line-height: 60px;
+  
   
    
 
