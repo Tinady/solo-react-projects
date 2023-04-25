@@ -13,7 +13,7 @@ export default function Header(props){
 
       <a href="">Services and prices 
       </a>
-      <button>Sign Up</button>
+      <a href="">Sign Up</a>
       <div className="toggle-Container" onClick={props.handleClick}>
         <div  className="toggle-slider" >
            <div className="toggle-circle"></div>
