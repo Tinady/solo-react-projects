@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import Intro from './components/intro'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header darkMode={darkmode} handleClick={toggle}/>
+      <Intro darkMode={darkmode}/>
     </div>
   )
 }
