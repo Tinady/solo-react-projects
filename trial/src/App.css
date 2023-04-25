@@ -8,7 +8,6 @@ nav{
 
 nav.dark{
   background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
-   rgba(4,0,4,1) 90% );
   box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
 }
 
@@ -22,6 +21,8 @@ nav.dark{
 
 .logos-container {
      margin-right: auto;
+
+
   }
  
 
@@ -93,4 +94,12 @@ nav.dark .toggle-circle{
    color: white;
    background-color:rgb(91, 175, 175);
   
+  }
+
+  .intro{
+    margin-top: 2px;
+    background-image: url(./assets/background4.jpeg);
+    background-repeat: repeat;
+    height: 500px;
+    max-width: 100%;
   }
