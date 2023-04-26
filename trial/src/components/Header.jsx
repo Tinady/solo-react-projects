@@ -17,8 +17,8 @@ export default function Header(props){
       <img className="dropdown"src={icon}/>
       </a>
       <a href="">Sign Up</a>
-        <div className="toggle-Container" onClick={props.handleClick}>
-        <div  className="toggle-slider" >
+        <div className="toggle-Container" >
+        <div  className="toggle-slider"  onClick={props.handleClick}>
            <div className="toggle-circle"></div>
          </div>
         </div>
