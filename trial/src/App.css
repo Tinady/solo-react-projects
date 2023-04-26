@@ -89,15 +89,6 @@ nav.dark .toggle-circle{
 
 
 
-.link-container button{
-   white-space: wrap;
-   width: 50px;
-   height: 35px;
-   border-radius: 35px;
-   color: white;
-   background-color:rgb(91, 175, 175);
-  
-  }
 
   .intro{
     margin: 0px;
@@ -105,12 +96,26 @@ nav.dark .toggle-circle{
     height: 400px;
   }
 
-  .link-container div{
-    display: inline-block;
-    
-  }
+ 
 
   .dropdown{
      height: 12px;
     
+  }
+
+  .link-container div{
+
+    display: inline-block;
+  }
+
+
+  .btn img{
+    height: 20px;
+    width: 20px;
+  }
+
+  .btn{
+    border-radius: 50%;
+     border-style: none;
+    background-color: transparent;
   }
