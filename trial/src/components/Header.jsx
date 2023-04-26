@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/company_logo.png"
+import icon from "../assets/dropdown.png"
 
 export default function Header(props){
   return(
@@ -12,7 +13,8 @@ export default function Header(props){
       <div className="link-container">
 
       <a href="">Services and prices 
-      </a>
+      <div><img className="dropdown"src={icon}/>
+      </div> </a>
       <a href="">Sign Up</a>
       <div className="toggle-Container" onClick={props.handleClick}>
         <div  className="toggle-slider" >
