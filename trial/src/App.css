@@ -96,21 +96,19 @@ nav.dark .toggle-circle{
 
 
   .introdark{
-    margin: 0px;
+    
     background-image: url(./assets/background4.jpg);
-    background-size:100%;
-  
-    height: 800px;
-    background-repeat: no-repeat;
+    width: 100%;
+   height: 650px;
+   
     color: whitesmoke;
   }
 
 
   .intro{
-    background-image: url(./assets/mainimg.avif);
-    background-size:100%;
-   
-    height: 400px;
+    background-image: url(./assets/mainimg.jpg);
+    width: 100%;
+    height: 650px;
     color: black;
 
 
