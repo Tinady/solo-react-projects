@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Intro from './components/intro'
+import Principles from './components/Principles'
 import './App.css'
+
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
     <div className="App">
       <Header darkMode={darkmode} handleClick={toggle}/>
       <Intro darkMode={darkmode}/>
+      <Principles darkMode={darkmode}/>
+
     </div>
   )
 }
