@@ -5,7 +5,8 @@ import hamburger from "../assets/hamburger.png"
 
 export default function Header(props){
   return(
-    <nav className={props.darkMode?'dark':''}>  
+    <nav className={props.darkMode?'dark':''}> 
+       
       <div className="logos-container">
        <img src={logo} className="logo"/>
        <p>Company name</p>
@@ -26,8 +27,7 @@ export default function Header(props){
         <img src={hamburger}/>
         </button>
       </div>
-      
-
+       
 
     </nav>
   )
