@@ -266,6 +266,17 @@ nav.dark .toggle-circle{
    
  }
 
+ @media only screen and (max-width: 800px) {
+  .principles2-detail{
+    display: flex;
+    padding: 50px ;
+    align-items: center;
+    padding-left: 30px;
+    
+  
+  }
+}
+
  .principles2-detail{
   display: flex;
   padding: 50px ;
@@ -275,7 +286,15 @@ nav.dark .toggle-circle{
 
 }
 
-      
+
+.menu-container{
+     margin-bottom: -150px;
+    background-color: rgb(230, 141, 33);
+    height: 110px;
+  
+}
+
+
 
 
 
