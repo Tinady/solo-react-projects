@@ -266,19 +266,13 @@ nav.dark .toggle-circle{
    
  }
 
- @media only screen and (max-width: 800px) {
-  .principles2-detail{
-    display: flex;
-    padding: 50px ;
-    align-items: center;
-    padding-left: 30px;
-    
+
   
-  }
-}
+
 
  .principles2-detail{
   display: flex;
+  flex-direction: row-reverse;
   padding: 50px ;
   align-items: center;
   padding-left: 400px;
