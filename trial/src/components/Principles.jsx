@@ -22,6 +22,7 @@ export default function Principles(props){
             <br/>
             <div className="principles2-detail">
              <div><h1>Vision</h1>
+             <img src={vision} className="principles2-img"/>
               <ul>
                 <li>Be specific Avoid general statements that are not unique to your company.</li>
                 <li>Be specific Avoid general statements that are not unique to your company.</li>
@@ -30,7 +31,7 @@ export default function Principles(props){
                  <li>Be specific Avoid general statements that are not unique to your company.</li>
               </ul>
               </div>
-              <img src={vision} className="principles2-img"/>
+              
             </div>
             <br/>
             <div className="principles-detail">
