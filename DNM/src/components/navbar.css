@@ -16,6 +16,7 @@ nav{
 
 nav input{
     width: 300px;
+    max-width: 350px;
     height: 40px;
     border-radius: 50px;
     border-width: 0.5px;
@@ -25,13 +26,14 @@ nav input{
 .search{
     display: flex;
     align-items: center;
+    max-width: 300px;
 }
 
 .search-img-container{
   
     display: inline;
     margin-left: -80px;
-    width: 60px;
+    max-width: 60px;
     height: 40px;
     place-items: center;
     border-left-style: none;
@@ -41,9 +43,21 @@ nav input{
 }
 .search-img{
     margin:10px;
-    width: 40px;
+    max-width: 40px;
     height: 25px;
     
    
 
+}
+
+.links-container{
+    display: flex;
+     gap: 10px;
+     margin-left: 10px;
+
+}
+
+
+.links{
+    text-decoration: none
 }
