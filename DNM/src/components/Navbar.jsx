@@ -15,9 +15,9 @@ import search from '../assets/search.png'
         </div>
         <div className="links-container">
             <Link to='/' className='links'>Home</Link>
-            <Link to='/' className='links'>Home</Link>
-            <Link to='/' className='links'>Home</Link>
-            <Link to='/' className='links'>Home</Link>
+            <Link to='/' className='links'>About us</Link>
+            <Link to='/' className='links'>contact us</Link>
+            <Link to='/' className='links'>Log in</Link>
         </div>
         </nav>
     )
