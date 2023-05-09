@@ -18,9 +18,10 @@ import search from '../assets/search.png'
 
         </div>
         <div className="right-section">
-         <Link to='/' className="links">Home</Link>
-         <Link to='/login' className="links">Log in</Link>
-         <Link to='/articles' className="links">Articles</Link>
+         {window.innerWidth >600 && <> <Link to='/home' className="links">Home</Link>
+             <Link to='/login' className="links">Log in</Link>
+             <Link to='/articles' className="links">Articles</Link></>}
+            
 
         </div>
       </nav>
