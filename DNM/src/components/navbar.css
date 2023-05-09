@@ -14,9 +14,9 @@ nav{
    
 }
 
-nav input{
-    width: 300px;
-    max-width: 350px;
+.search input{
+    max-width: 400px;
+    min-width: 200px;
     height: 40px;
     border-radius: 50px;
     border-width: 0.5px;
