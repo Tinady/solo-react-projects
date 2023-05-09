@@ -5,20 +5,24 @@ import logo from '../assets/logo2.png'
 import search from '../assets/search.png'
  export default  function Navbar(){
     return(
-        <nav >
-        <img className="logo" src={logo} alt=""/>
-        <div className="search">
-           <input type="text" placeholder="search.."/>
-           <div className="search-img-container">
-             <img className="search-img" src={search} alt=""/>
-           </div>
+      <nav className="header">
+        <div className="left-section">
+          <img src={logo} className="Logo"/>
         </div>
-        <div className="links-container">
-            <Link to='/' className='links'>Home</Link>
-            <Link to='/' className='links'>About us</Link>
-            <Link to='/' className='links'>contact us</Link>
-            <Link to='/' className='links'>Log in</Link>
+        <div className="middle-section">
+        <input type="text" placeholder="search.." 
+            className="search-bar"/>
+        <button className="search-button">
+           <img src={search} alt="" className="search-img"/>
+        </button>
+
         </div>
-        </nav>
+        <div className="right-section">
+         <Link to='/' className="links">Home</Link>
+         <Link to='/login' className="links">Log in</Link>
+         <Link to='/articles' className="links">Articles</Link>
+
+        </div>
+      </nav>
     )
  }
