@@ -10,7 +10,7 @@ import search from '../assets/search.png'
           <img src={logo} className="Logo"/>
         </div>
         <div className="middle-section">
-        <input type="text" placeholder="search.." 
+        <input type="text" placeholder="Search..." 
             className="search-bar"/>
         <button className="search-button">
            <img src={search} alt="" className="search-img"/>
