@@ -23,10 +23,14 @@ nav input{
     box-shadow: 2px 2px rgba(1,1,1,0.5);
     text-indent: 20px;
 }
+
+
+
+
 .search{
     display: flex;
     align-items: center;
-    max-width: 300px;
+    
 }
 
 .search-img-container{
@@ -52,7 +56,7 @@ nav input{
 
 .links-container{
     display: flex;
-     gap: 10px;
+     justify-content: space-between;
      margin-left: 10px;
 
 }
