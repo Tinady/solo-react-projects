@@ -46,5 +46,15 @@ export default[
         
 
       },
+      {
+        id:2,
+        name:'Mekonin Terefe',
+        img:image,
+        Hospital: 'return',
+        when:'3:34-3:60',
+        specialization:'Eye'
+        
+
+      }
 
 ]
