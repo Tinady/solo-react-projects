@@ -15,7 +15,7 @@ export default[
 
       {
         id:2,
-        name:'Abebe Terefe',
+        name:'Mekonin Terefe',
         img:image,
         Hospital: 'return',
         when:'3:34-3:60',
@@ -26,7 +26,7 @@ export default[
 
       {
         id:2,
-        name:'Abebe Terefe',
+        name:'Solomon Feyisa',
         img:image,
         Hospital: 'return',
         when:'3:34-3:60',
@@ -38,7 +38,7 @@ export default[
 
       {
         id:2,
-        name:'Abebe Terefe',
+        name:'Abel Kebede',
         img:image,
         Hospital: 'return',
         when:'3:34-3:60',
