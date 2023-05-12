@@ -4,12 +4,14 @@ import "./home.css";
 export default function Home(props){
     return(
         <div className="card-container">
+          <div>
          <img src={props.items.img} alt=""/>
         <p>Dr. {props.items.name}</p>
         <p>Works in: {props.items.Hospital}</p>
         <p>hours:{props.items.when}</p>
         <p>{props.items.specialization}</p>
-        <p></p>
+        <button>Read more</button>
+        </div>
       </div>
     )
     
