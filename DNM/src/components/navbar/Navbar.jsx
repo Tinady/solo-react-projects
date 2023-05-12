@@ -22,14 +22,15 @@ import menu from '../../assets/menu.png'
         <div className="left-section">
           <img src={logo} className="Logo"/>
         </div>
-        <div className="middle-section">
+        <form className="middle-section">
+
         <input type="text" placeholder="Search..." 
             className="search-bar"/>
         <button className="search-button">
            <img src={search} alt="" className="search-img"/>
         </button>
 
-        </div>
+        </form>
         <div className="right-section">
          {windowWidth >800 ? <> <Link to='/' className="links">Home</Link>
              <Link to='/login' className="links">Log in</Link>
