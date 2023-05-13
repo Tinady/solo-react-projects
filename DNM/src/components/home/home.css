@@ -4,6 +4,7 @@
     box-shadow: 2px 2px 2px 2px rgba(134, 134, 217, 0.5);
     width: 250px;
     height: 300px;
+    position: relative;
    
     
 }
@@ -33,3 +34,15 @@ button:hover{
     box-shadow:2px 2px rgba(94, 94, 191, 0.5); 
 }
 
+.fav-btn{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.card-container:hover .fav-btn{
+    opacity: 1;
+    box-shadow: 2px 2px rgba(1, 1,1, 0.5) ;
+}
