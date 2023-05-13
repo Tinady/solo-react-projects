@@ -35,9 +35,18 @@ import menu from '../../assets/menu.png'
          {windowWidth >800 ? <> <Link to='/' className="links">Home</Link>
              <Link to='/login' className="links">Log in</Link>
              <Link to='/articles' className="links">Articles</Link></>:
+             <div>  
              <button className="menu-btn">
               <img className="menu-img" src={menu} alt=''/>
-              </button>}
+              </button>
+              <div className="menu-list">
+              <Link to='/' className="links">Home</Link>
+              <Link to='/login' className="links">Log in</Link>
+              <Link to='/articles' className="links">Articles</Link>
+                </div>
+
+              </div>
+              }
             
 
         </div>
