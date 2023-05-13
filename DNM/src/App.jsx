@@ -19,7 +19,7 @@ function App() {
      <Routes>
       <Route path='/' element={<div className='cards-container'>{homeel}</div>}/>
       <Route path='/articles' element={<>Articles</>}/>
-      <Route path='/login' element={<Login/>}/>
+      <Route path='/login' element={<Login/>} />
       <Route path='signup'  element={<Signup/>}/>
       
      </Routes>
