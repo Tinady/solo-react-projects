@@ -83,14 +83,27 @@
 
 .menu-img{
     height: 20px;
+    margin: auto;
    
 }
 
+
+
 .menu-list{
     background-color: aliceblue;
-    padding: 40px;
-    position: absolute;
-    top: 45px;
+    padding: 30px;
+    position: fixed;
+    top:0px;
+    left: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    opacity: 0;
+
 }
+
+.menu-btn:hover .menu-list{
+    opacity: 1;
+}
+
