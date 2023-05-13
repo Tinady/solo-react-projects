@@ -31,6 +31,7 @@
     display: flex;
      gap: 40px;
      margin-left: 20px;
+     position: relative;
    
 }
 
@@ -83,4 +84,13 @@
 .menu-img{
     height: 20px;
    
+}
+
+.menu-list{
+    background-color: aliceblue;
+    padding: 40px;
+    position: absolute;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
 }
