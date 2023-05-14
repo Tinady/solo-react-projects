@@ -13,9 +13,7 @@ export default function Home(props){
          </button>
       <img src={props.items.img} alt=""/>
        <p>Dr. {props.items.name}</p>
-        <p>Works in: {props.items.Hospital}</p>
-        <p>hours:{props.items.when}</p>
-        <p>{props.items.specialization}</p>
+      <p>{props.items.specialization}</p>
         <Link to={`./${props.items.id}`}>
         <button>Read more</button>
         </Link>
