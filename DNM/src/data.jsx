@@ -3,7 +3,7 @@ import image from './assets/doc1.jpg'
 
 export default[
       {
-        id:1,
+        id:0,
         name:'Abebe Terefe',
         img:image,
         Hospital: 'return',
@@ -15,7 +15,7 @@ export default[
       },
 
       {
-        id:2,
+        id:1,
         name:'Mekonin Terefe',
         img:image,
         Hospital: 'return',
@@ -27,7 +27,7 @@ export default[
       },
 
       {
-        id:3,
+        id:2,
         name:'Solomon Feyisa',
         img:image,
         Hospital: 'return',
@@ -40,7 +40,7 @@ export default[
 
 
       {
-        id:4,
+        id:3,
         name:'Abel Kebede',
         img:image,
         Hospital: 'return',
@@ -51,13 +51,13 @@ export default[
 
       },
       {
-        id:5,
+        id:4,
         name:'Mekonin Terefe',
         img:image,
         Hospital: 'return',
         when:'3:34-3:60',
         specialization:'Eye',
-        fav:false
+        fav:true
         
 
       }
