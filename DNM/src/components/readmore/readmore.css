@@ -7,6 +7,7 @@ bottom: 0;
 background-color: white;
 
 
+
 }
 
 
@@ -14,5 +15,14 @@ background-color: white;
     
     display: flex;
     align-items: center;
+    padding: 5%;
     
+}
+
+.details-container img{
+    border-style: solid;
+    border-color: rgb(156, 182, 206);
+    height: 400px;
+    width: 60%;
+    margin-right: 8%;
 }
