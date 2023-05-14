@@ -13,10 +13,11 @@ export default function ReadMore(props){
     <div>
     <h1>{doc.name}</h1> 
     <p>{doc.when}</p>
-    <p>{doc.hospital}</p>  
+    <p>{doc.Hospital}</p> 
+     
     </div>
     </div>
-    
+
     </diV>
     
     )
