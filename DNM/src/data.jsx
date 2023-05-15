@@ -6,7 +6,8 @@ export default[
         id:0,
         name:'Abebe Terefe',
         img:image,
-        Hospital: 'return',
+        Hospital: 'Amen Hospital',
+        location:'Mexico',
         when:'3:34-3:60',
         specialization:'Eye',
         fav:false
@@ -18,7 +19,8 @@ export default[
         id:1,
         name:'Mekonin Terefe',
         img:image,
-        Hospital: 'return',
+        Hospital: 'Amen Hospital',
+        location:'Mexico',
         when:'3:34-3:60',
         specialization:'Eye',
         fav:false
@@ -30,7 +32,8 @@ export default[
         id:2,
         name:'Solomon Feyisa',
         img:image,
-        Hospital: 'return',
+        Hospital: 'Amen Hospital',
+        location:'Mexico',
         when:'3:34-3:60',
         specialization:'Eye doctor',
         fav:false
@@ -43,7 +46,8 @@ export default[
         id:3,
         name:'Abel Kebede',
         img:image,
-        Hospital: 'return',
+        Hospital: 'Amen Hospital',
+        location:'Mexico',
         when:'3:34-3:60',
         specialization:'Eye',
         fav:false
@@ -54,7 +58,8 @@ export default[
         id:4,
         name:'Mekonin Terefe',
         img:image,
-        Hospital: 'return',
+        Hospital: 'Amen Hospital',
+        location:'Mexico',
         when:'3:34-3:60',
         specialization:'Eye',
         fav:true
