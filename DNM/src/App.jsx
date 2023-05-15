@@ -39,7 +39,7 @@ function App() {
         <div className='cards-container'>{homeel}</div>
         <h2>Favourites</h2>
         <hr/>
-        <div className='cards-container'>{favel}</div>
+        <div className='fav-container'>{favel}</div>
         </div>}/> 
       <Route path='/:id' element={rm}/>
       <Route path='/articles' element={<>Articles</>}/>
