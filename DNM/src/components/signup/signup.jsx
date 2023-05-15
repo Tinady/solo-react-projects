@@ -21,8 +21,15 @@ export default function Signup(){
                  </label>
                  <label>
                   <p>Password</p> 
-                 <input type='text'/>
+                 <input type='password'/>
                  </label>
+                 
+                 <label>
+                  <p>Confirm Password</p> 
+                 <input type='password'/>
+                 </label>
+                
+                      
                  <button>Sign up</button>
                 
 
