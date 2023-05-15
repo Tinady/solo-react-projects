@@ -10,10 +10,11 @@ export default function ReadMore(props){
     <diV className='details'>
     <div className="details-container">
     <img src={doc.img}/> 
-    <div>
+    <div className="info">
     <h1>{doc.name}</h1> 
     <p>{doc.when}</p>
     <p>{doc.Hospital}</p> 
+    <p>{doc.location}</p> 
      
     </div>
     </div>
