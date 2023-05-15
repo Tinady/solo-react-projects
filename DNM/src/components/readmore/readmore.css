@@ -5,6 +5,7 @@ left: 0;
 right: 0;
 bottom: 0;
 background-color: white;
+z-index: 2000;
 
 
 
@@ -14,15 +15,20 @@ background-color: white;
 .details-container{
     
     display: flex;
-    align-items: center;
     padding: 5%;
+    
+    height: 100%;
     
 }
 
 .details-container img{
     border-style: solid;
     border-color: rgb(156, 182, 206);
-    height: 400px;
-    width: 60%;
+    height: 70%;
+    width: 50%;
     margin-right: 8%;
+}
+
+.info{
+    align-self: center;
 }
