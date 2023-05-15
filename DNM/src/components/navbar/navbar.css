@@ -79,7 +79,7 @@
 
 
 .menu-btn:hover{
-    background-color: rgba(134, 134, 217, 0.2);
+    background-color: rgba(181, 181, 255, 0.2);
 }
 
 .menu-btn{
@@ -106,11 +106,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    opacity: 0;
+    
+   
 
 }
 
-.menu-btn:hover .menu-list{
-    opacity: 1;
-}
+
 
