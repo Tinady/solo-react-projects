@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Fav(props){
   return (
     <div>
-      {props.items.fav &&  <div className="card-container">
+      {props.items.fav&&<div className="card-container">
           <div>
          <button className="fav-btn"  
           onClick={props.handleclick}>
