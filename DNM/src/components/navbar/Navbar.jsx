@@ -6,11 +6,20 @@ import logo from '../../assets/logo2.png'
 import search from '../../assets/search.png'
 import menu from '../../assets/menu.png'
  export default  function Navbar(){
+const [showMenu, setShowMenu]=useState(false)
+   function togglemenu(){
+    setShowMenu(prevstate=>!prevstate)
+   }
+
 
   const [windowWidth, setWindowWidth]=useState(window.innerWidth)
   function handle(){
       setWindowWidth(window.innerWidth)
+      setShowMenu(prevstate=>
+        prevstate?!prevstate:prevstate)
 }
+
+
   console.log(windowWidth)
   useEffect(()=>
     { window.addEventListener('resize', handle)},
@@ -36,19 +45,20 @@ import menu from '../../assets/menu.png'
              <Link to='/login' className="links">Log in</Link>
              <Link to='/articles' className="links">Articles</Link></>:
              <div>  
-             <button className="menu-btn">
+             <button className="menu-btn" onClick={togglemenu}>
               <img className="menu-img" src={menu} alt=''/>
               </button>
-              <div className="menu-list">
-              <Link to='/' className="links">Home</Link>
-              <Link to='/login' className="links">Log in</Link>
-              <Link to='/articles' className="links">Articles</Link>
-                </div>
-
-              </div>
+               </div>
               }
             
-
+           {
+            windowWidth <800&&showMenu&&<div className="menu-list">
+            <Link to='/' className="links">Home</Link>
+            <Link to='/login' replace={false} className="links">Log in</Link>
+            <Link to='/articles' className="links">Articles</Link>
+              </div>
+              }
+          
         </div>
       </nav>
     )
