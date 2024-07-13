@@ -18,7 +18,7 @@ const Hero = () => {
        <p>Discover stylsish Nike arrivals, quality comfort an innovation fro your active  life.</p>
      
       </div>
-      <Button />
+      <Button iconLabel='Click me'/>
 
     </section>
   );
