@@ -10,8 +10,12 @@ const Hero = () => {
       <div className="relative  flex flex-col xl:w-2/5 justify-center items-start w-full max-xl:padding-x pt-28">
        <p> Our summer collections </p>
        <h1>
-        
+        The New  Arrival
+        <br/>
+        <span>Nike</span>
        </h1>
+       <p>Discover stylsish Nike arrivals, quality comfort an innovation fro your active  life.</p>
+     
       </div>
     </section>
   );
