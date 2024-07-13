@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/images/header-logo.svg'
 import Hamburger from '../assets/icons/hamburger.svg'
+import {navLinks} from '../constants/index'
 
 const Nav = () => {
   return (
@@ -11,7 +12,11 @@ const Nav = () => {
       </a>
 
       <ul className='flex-1 flex  justify-center items-center gap-16 max-lg:hidden'>
-
+    { navLinks.map((item) => (
+      <li key={item.label}>
+<a href={item.href} className='font-montserrat leading-normal text-lg text-slate-700'>{item.label}</a>
+      </li>
+    )) }
   </ul>
     </nav>
    </header>
