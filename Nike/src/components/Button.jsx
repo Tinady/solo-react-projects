@@ -4,6 +4,7 @@ const Button = (props) => {
   return (
    <button className=''>
     {props.iconLabel}
+    {props.iconsURL}
    </button>
   )
 }
