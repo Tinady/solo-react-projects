@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import {arrowRight} from '../assets/icons/index'
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
        <p>Discover stylsish Nike arrivals, quality comfort an innovation fro your active  life.</p>
      
       </div>
-      <Button iconLabel='Click me'/>
+      <Button iconLabel='Click me'  iconsURL={arrowRight}/>
 
     </section>
   );
