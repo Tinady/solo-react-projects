@@ -4,6 +4,7 @@ import Hamburger from '../assets/icons/hamburger.svg'
 import {navLinks} from '../constants/index'
 import { hamburger } from '../assets/icons'
 
+
 const Nav = () => {
   return (
    <header className='padding-x py-8 absolute z-10  w-full'>
