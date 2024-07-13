@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -17,6 +18,8 @@ const Hero = () => {
        <p>Discover stylsish Nike arrivals, quality comfort an innovation fro your active  life.</p>
      
       </div>
+      <Button />
+
     </section>
   );
 };
