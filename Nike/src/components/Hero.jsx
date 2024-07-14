@@ -13,7 +13,7 @@ const Hero = () => {
        <p> Our summer collections </p>
        <h1>
         The New  Arrival
-        <br className="bg-red-500   "/>
+        <br className="bg-red-500 w-24  "/>
         <span>Nike</span>
        </h1>
        <p>Discover stylsish Nike arrivals, quality comfort an innovation fro your active  life.</p>
