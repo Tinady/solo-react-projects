@@ -1,15 +1,13 @@
-import GsapTo from './pages/GsapTo'
+import 'App.css'
 
-import './App.css'
-
-function App() {
-
-
-  return (
+const App = () =>{
+  return(
     <>
-     <GsapTo/>
     </>
   )
+
 }
 
 export default App
+
+
