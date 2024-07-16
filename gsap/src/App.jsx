@@ -1,19 +1,10 @@
+import React from 'react'
 
-
-import './App.css'
-
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      <div className='parent'>
-        Parent
-        <div className='child-one  child'>One</div>
-        <div className='child-two  child'>Two</div>
-        <div className='child-three  child'>Three</div>
-      </div>
-    </>
+    <div>
+      
+    </div>
   )
 }
 
