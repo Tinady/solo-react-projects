@@ -1,11 +1,11 @@
 import React from 'react'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-<form>
-  <input type='text'/>
-
-</form>
+<div>
+<NavBar/>
+</div>
   )
 }
 
