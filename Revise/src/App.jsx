@@ -42,7 +42,7 @@ const App = () => {
         </div>
         <button className="btn">Add</button>
       </form>
-      <h1>Todo List</h1>
+      <h1>Todos</h1>
       <ul className="list">
         {todos.map((todo) => (
           <li key={todo.id}>
